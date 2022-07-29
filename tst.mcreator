@@ -1,0 +1,53 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ce",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ce"
+    },
+    {
+      "name": "Mo",
+      "type": "recipe",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mo"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.tst.ce": "Ce"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "tst",
+    "modName": "tinker_scc_tool",
+    "version": "1.0.0",
+    "author": "ecmbinshu",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [
+      "tconstruct",
+      "scc",
+      "mantle",
+      "ascc"
+    ],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.tst",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
