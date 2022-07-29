@@ -74,6 +74,8 @@ minecraft {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.16.5-36.2.8'
+    compile fg.deobf("slimeknights.mantle:Mantle:1.16.5-3.3.4.335")
+    compile fg.deobf("slimeknights.tconstruct:TConstruct:1.16.5-1.6.157")
 }
 
 apply from: 'mcreator.gradle'
